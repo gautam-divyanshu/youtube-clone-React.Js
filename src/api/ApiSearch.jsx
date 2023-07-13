@@ -14,7 +14,7 @@ const ApiSearch = () => {
   }, []);
 
   const fetchData = async () => {
-    const apiKey = "AIzaSyDUWGljeiZYdO-Jqk0--m3fkEdD_tEpdjk";
+    const apiKey = "";
     const maxResult = "23";
     const query = searchTerm;
     const url = `https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=${maxResult}&order=relevance&q=${query}&key=${apiKey}`;
