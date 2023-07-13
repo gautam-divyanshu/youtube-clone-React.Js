@@ -7,7 +7,6 @@ function ApiData() {
   useEffect(() => {
     fetchData();
   }, []);
-
   const fetchData = async () => {
     const apiKey = "AIzaSyDUWGljeiZYdO-Jqk0--m3fkEdD_tEpdjk";
     const maxResult = "50";
