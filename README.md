@@ -1,5 +1,6 @@
 # Youtube clone 
 Built with React.js, bootstrap , css , javascript
+This site was built using [Youtube data api](https://developers.google.com/youtube/v3).
 
 https://github.com/gautam-divyanshu/youtube-clone-React.Js/assets/137816099/5db022ec-586a-40de-a6d7-7c6f7c84076f
 
