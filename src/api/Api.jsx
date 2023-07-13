@@ -8,7 +8,7 @@ function ApiData() {
     fetchData();
   }, []);
   const fetchData = async () => {
-    const apiKey = "AIzaSyDUWGljeiZYdO-Jqk0--m3fkEdD_tEpdjk";
+    const apiKey = "";
     const maxResult = "50";
     const url = `https://youtube.googleapis.com/youtube/v3/videos?part=snippet&chart=mostPopular&maxResults=${maxResult}&key=${apiKey}`;
     const options = {
