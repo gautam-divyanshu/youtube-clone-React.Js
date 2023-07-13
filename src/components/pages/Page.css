@@ -1,0 +1,46 @@
+#card_grid {
+  margin: 20px 40px 0px 110px;
+  padding-top: 70px;
+}
+#card {
+  width: 360px;
+  background-color: #121212;
+  color: white;
+}
+#card img {
+  height: 200px;
+}
+#card-body {
+  height: 100px;
+}
+#search__card {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+#search__img {
+  width: 360px;
+  height: 270px;
+  background-color: #121212;
+  color: white;
+}
+#search__img > img {
+  border-radius: 15px;
+}
+
+#search-card-body {
+  height: 270px;
+  width: 360px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+#search-card-body > p {
+  padding-top: 15px;
+}
+
+.videoCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}

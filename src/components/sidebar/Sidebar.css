@@ -1,0 +1,42 @@
+#offcanvasExample {
+  background-color: #121212;
+  color: white;
+  width: 240px;
+}
+.offcanvas_header {
+  display: flex;
+  gap: 13px;
+  align-items: center;
+  padding: 10px;
+  margin-left: 10px;
+}
+.offcanvas_header > h5 {
+  margin: 0px;
+  font-weight: bolder;
+}
+.offcanvas_header img{
+  width: 100px;
+}
+.offcanvas_header > button {
+  border-style: none;
+  background-color: #121212;
+  color: white;
+}
+.youtubeIcon {
+  color: red;
+  size: 30px;
+}
+.off_body {
+  overflow-y: auto;
+  height: 90vh;
+}
+.off_body li:hover {
+  background-color: rgba(136, 136, 136, 0.48);
+}
+.off_body li {
+  border-radius: 8px;
+  margin: 0px 10px;
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+}
